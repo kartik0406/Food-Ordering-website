@@ -11,6 +11,10 @@
         rel="stylesheet">
 <link rel="manifest" href="manifest.json">
  
+    
+<script>
+    self.addEventListener('fetch', function(event) {});
+    </script>
 </head>
         
 
@@ -30,16 +34,6 @@
 
     </nav>
   
-
-<script>
- window.addEventListener("beforeinstallprompt", ev => { 
-  // Stop Chrome from asking _now_
-
-  // Create your custom "add to home screen" button here if needed.
-  // Keep in mind that this event may be called multiple times, 
-  // so avoid creating multiple buttons!
-});
-</script>
 
     <section id="home">
         <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
