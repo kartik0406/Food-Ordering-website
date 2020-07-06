@@ -50,7 +50,11 @@ margin:3px 6px;
 }
 
 /* Navigation Bar:List Styling */
-
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
 
 #navbar ul{
     display: flex;
