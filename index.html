@@ -9,9 +9,9 @@
     <link rel="stylesheet" media="screen and (max-width:1176px)" href="phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bree+Serif&display=swap"
         rel="stylesheet">
-
+   
 </head>
-
+<link rel="manifest" href="/manifest.json">
 <body>
     <nav id="navbar">
         <div id="logo">
@@ -129,5 +129,15 @@
         </div>
     </footer>
 </body>
-
+<script src="service-worker.js">
+ if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('service-worker.js')
+      .then(function(reg){
+        console.log("Yes, it did.");
+     }).catch(function(err) {
+        console.log("No it didn't. This happened:", err)
+    });
+ }
+</script>
 </html>
