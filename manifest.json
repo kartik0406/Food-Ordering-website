@@ -6,22 +6,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "logo.png",
+      "src": "img192.png",
       "type": "image/png",
       "sizes": "192x192"
     }
